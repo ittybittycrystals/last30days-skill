@@ -1,0 +1,157 @@
+{
+  "topic": "Windows Server patch issues",
+  "window": {
+    "start": "2026-10-16",
+    "end": "2026-11-15",
+    "date_basis": "last30days date-window CLI"
+  },
+  "skill_version": "3.39.0",
+  "engine_exit_code": 0,
+  "confidence_policy": "High: explicit Microsoft documentation. Medium: deployment implications or unverified absence of a later fix.",
+  "sources": [
+    {
+      "label": "server2025",
+      "url": "https://learn.microsoft.com/en-us/windows/release-health/status-windows-server-2025",
+      "retrieved_at": "2026-11-15T15:17:01.159548+00:00",
+      "http_status": 200,
+      "final_url": "https://learn.microsoft.com/en-us/windows/release-health/status-windows-server-2025",
+      "retrieved_content_sha256": "b44ec7e285098ed65eccb8fe03e0c399e82e4cf83fab945e2c48b4a2f12d312c"
+    },
+    {
+      "label": "server2022",
+      "url": "https://learn.microsoft.com/en-us/windows/release-health/status-windows-server-2022",
+      "retrieved_at": "2026-11-15T15:17:01.160710+00:00",
+      "http_status": 200,
+      "final_url": "https://learn.microsoft.com/en-us/windows/release-health/status-windows-server-2022",
+      "retrieved_content_sha256": "547d1cfe028af83d1a81cc1c24f0631f883c13ac7825d77c9802e78662a44c87"
+    },
+    {
+      "label": "server2019",
+      "url": "https://learn.microsoft.com/en-us/windows/release-health/status-windows-server-2019",
+      "retrieved_at": "2026-11-15T15:17:01.161187+00:00",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "retrieved_content_sha256": "3b49f919ecbd6cc2fe9d946f34ed87e51ea40e2dd54997ebc07cc1a066c2f6b8"
+    },
+    {
+      "label": "server2016",
+      "url": "https://learn.microsoft.com/en-us/windows/release-health/status-windows-server-2016",
+      "retrieved_at": "2026-11-15T15:17:01.161557+00:00",
+      "http_status": 404,
+      "error": "HTTP Error 404: Not Found",
+      "retrieved_content_sha256": "3b49f919ecbd6cc2fe9d946f34ed87e51ea40e2dd54997ebc07cc1a066c2f6b8"
+    },
+    {
+      "label": "search",
+      "url": "https://learn.microsoft.com/api/search?search=Windows%20Server%20November%202026%20update%20known%20issues&locale=en-us&$top=15",
+      "retrieved_at": "2026-11-15T15:17:01.161883+00:00",
+      "http_status": 200,
+      "final_url": "https://learn.microsoft.com/api/search?search=Windows%20Server%20November%202026%20update%20known%20issues&locale=en-us&$top=15",
+      "retrieved_content_sha256": "289e0d8eb93135860a52f7d12795f97b04f49f26c70ebd16f384a571671bc32f"
+    },
+    {
+      "label": "kb2025",
+      "url": "https://support.microsoft.com/en-us/servicing/os/windows-server/2026/11/kb5131080-windows-server-2025-security-update",
+      "retrieved_at": "2026-11-15T15:17:31.057022+00:00",
+      "http_status": 200,
+      "final_url": "https://support.microsoft.com/en-us/servicing/os/windows-server/2026/11/kb5131080-windows-server-2025-security-update",
+      "retrieved_content_sha256": "2cfa90c8da0381ddc51b6c0004895c5ef3a3eabe0a4d23796a812e5c171c78f6"
+    },
+    {
+      "label": "kb2022",
+      "url": "https://support.microsoft.com/en-us/servicing/os/windows-server/2026/11/kb5131090-windows-server-2022-security-update",
+      "retrieved_at": "2026-11-15T15:17:31.057657+00:00",
+      "http_status": 200,
+      "final_url": "https://support.microsoft.com/en-us/servicing/os/windows-server/2026/11/kb5131090-windows-server-2022-security-update",
+      "retrieved_content_sha256": "409e31cc9cecd041cca0f8e5cbfd8e9a310c954050df400be9132bd34c34eab0"
+    },
+    {
+      "label": "exchange-workaround",
+      "url": "https://support.microsoft.com/en-us/servicing/exchange/server/update/2026/5133432",
+      "retrieved_at": "2026-11-15T15:17:31.058201+00:00",
+      "http_status": 200,
+      "final_url": "https://support.microsoft.com/en-us/servicing/exchange/server/update/2026/5133432",
+      "retrieved_content_sha256": "452b8dffaa890b6c80fc23b8ee094d42eaa370b1578bca293068d14a44509f52"
+    },
+    {
+      "label": "exchange-blog",
+      "url": "https://techcommunity.microsoft.com/blog/Exchange/exchange-servers-may-become-unstable-after-installation-of-october-2026-windows-/4565382",
+      "retrieved_at": "2026-11-15T15:17:31.058720+00:00",
+      "http_status": null,
+      "error": "UnicodeDecodeError: compressed gzip body decoded as UTF-8; retried with gzip support in final-sources.json.",
+      "retrieved_content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "server2019-canonical",
+      "url": "https://learn.microsoft.com/en-us/windows/release-health/status-windows-10-1809-and-windows-server-2019",
+      "retrieved_at": "2026-11-15T15:17:31.059144+00:00",
+      "http_status": 200,
+      "final_url": "https://learn.microsoft.com/en-us/windows/release-health/status-windows-10-1809-and-windows-server-2019",
+      "retrieved_content_sha256": "ee28577be700d7a974373f8b200fbde47dc9e1f6d643df88d88d9bd02bac5c48"
+    },
+    {
+      "label": "server2016-canonical",
+      "url": "https://learn.microsoft.com/en-us/windows/release-health/status-windows-10-1607-and-windows-server-2016",
+      "retrieved_at": "2026-11-15T15:17:31.059714+00:00",
+      "http_status": 200,
+      "final_url": "https://learn.microsoft.com/en-us/windows/release-health/status-windows-10-1607-and-windows-server-2016",
+      "retrieved_content_sha256": "128b30961270e39788bf4a2b5dfa29e84f4eea11faa2444f28863aa1986152af"
+    },
+    {
+      "label": "oob2025",
+      "url": "https://support.microsoft.com/help/5136489",
+      "retrieved_at": "2026-11-15T15:18:15.255651+00:00",
+      "http_status": 200,
+      "final_url": "https://support.microsoft.com/en-us/servicing/os/windows-server/2026/11/kb5136489-windows-server-2025-update",
+      "retrieved_content_sha256": "3daad5684b28f181d34cbbc47f76cae1f4af9bd1e9e6c69356c325f4d69e258f"
+    },
+    {
+      "label": "oob2022",
+      "url": "https://support.microsoft.com/help/5136487",
+      "retrieved_at": "2026-11-15T15:18:15.256298+00:00",
+      "http_status": 200,
+      "final_url": "https://support.microsoft.com/en-us/servicing/os/windows-server/2026/11/kb5136487-windows-server-2022-update",
+      "retrieved_content_sha256": "9ae44ecc964d7f49a8edc41a46d4b75691961e03271770823833f081b1ce3b28"
+    },
+    {
+      "label": "kb2019",
+      "url": "https://support.microsoft.com/help/5131085",
+      "retrieved_at": "2026-11-15T15:18:15.256889+00:00",
+      "http_status": 200,
+      "final_url": "https://support.microsoft.com/en-us/servicing/os/windows-10/2026/11/kb5131085-windows-10-1809-security-update",
+      "retrieved_content_sha256": "5309a60c0f95df180e422550ce3ff3e4b3cb1bb461fecb6df387c3b9e4bad04e"
+    },
+    {
+      "label": "kb2016",
+      "url": "https://support.microsoft.com/help/5131291",
+      "retrieved_at": "2026-11-15T15:18:15.257548+00:00",
+      "http_status": 200,
+      "final_url": "https://support.microsoft.com/en-us/servicing/os/windows-10/2026/11/kb5131291-windows-10-1607-security-update",
+      "retrieved_content_sha256": "3473c730a54e6fff6a57609ca0d177377b50bfbb2f2d9b94eb91a9c8d6ccd057"
+    },
+    {
+      "label": "exchange-blog-retry",
+      "url": "https://techcommunity.microsoft.com/blog/Exchange/exchange-servers-may-become-unstable-after-installation-of-october-2026-windows-/4565382",
+      "retrieved_at": "2026-11-15T15:18:15.258130+00:00",
+      "http_status": 200,
+      "final_url": "https://techcommunity.microsoft.com/blog/Exchange/exchange-servers-may-become-unstable-after-installation-of-october-2026-windows-/4565382",
+      "retrieved_content_sha256": "cab7fb711a1009b66d5b07dea08cffc3efddf8f4f0d72a836fa880a2660d6fa4"
+    },
+    {
+      "label": "oob2019",
+      "url": "https://support.microsoft.com/help/5136490",
+      "http_status": 200,
+      "final_url": "https://support.microsoft.com/en-us/servicing/os/windows-10/2026/11/kb5136490-windows-10-1809-update",
+      "retrieved_content_sha256": "9c84ac64d8e1fbdccf205634fe044fd6207c8806eea7a88ac4e2568062ef9fb6"
+    }
+  ],
+  "coverage": {
+    "reddit": "HTTP 403",
+    "hackernews": "Retrieved but irrelevant retained items excluded",
+    "github": "Retrieved but irrelevant retained items excluded",
+    "x": "Unconfigured authentication; not retrieved",
+    "youtube": "yt-dlp absent; not retrieved"
+  },
+  "report_sha256": "e183d700f8d64df839a80dc1594ff3c048e0f52e93fd8cf8a9b5a3014d936bb9",
+  "scope": "Research findings only; no Windows server changes performed."
+}
